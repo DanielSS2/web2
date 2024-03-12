@@ -4,12 +4,14 @@ html{
 body{
     display:flex;
     flex-direction: column;
+    margin: auto;
 }
 
 header{
     display:flex;
     justify-content: space-between;
     flex:3;
+    background-color: blue;
 }
 main{
     flex:6;
@@ -28,4 +30,10 @@ ul{
     display: flex;
     min-width: 300px;
     justify-content: space-around;
+    list-style-type: none;
+}
+
+nav ul li a{
+    color:#EEEE;
+    text-decoration: none;
 }
